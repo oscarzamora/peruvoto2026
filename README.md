@@ -62,8 +62,15 @@ Muestra:
 - Todas las localidades dentro del universo de mesas 900K
 - Métricas de votos en blanco y nulos específicas para mesas especiales
 
+### Panel 13 de Abril
+Expone los resultados de las mesas que se abrieron el 13 de abril de 2026.
+Incluye:
+- Votos por candidato en la fecha del 13 de abril
+- Gráfico de distribución de votos por candidato
+- Métricas de votos en blanco y nulos
+- Cantidad total de mesas abiertas en esa fecha (Mesa QTY)
+
 ### Otros paneles
-- **13 de Abel**: [Descripción por completar]
 - **Mapa 900K**: Visualización geográfica de mesas especiales
 
 ## Inicio rápido
