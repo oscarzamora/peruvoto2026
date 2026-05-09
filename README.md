@@ -122,8 +122,3 @@ Visualización geográfica con puntos de coordenadas exactas.
 
 ![Panel Mapa 900K](assets/screenshots/05-panel-mapa-900k.jpg)
 
-## Inicio rápido
-
-1. Coloca tus archivos de reporte de Power BI en reports/.
-2. Haz commit de los cambios.
-3. Haz push a tu repositorio remoto de Git.
