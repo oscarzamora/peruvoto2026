@@ -70,8 +70,14 @@ Incluye:
 - Métricas de votos en blanco y nulos
 - Cantidad total de mesas abiertas en esa fecha (Mesa QTY)
 
-### Otros paneles
-- **Mapa 900K**: Visualización geográfica de mesas especiales
+### Panel Mapa 900K
+Visualización geográfica de las mesas especiales 900K+ que han generado controversia en la auditoría electoral.
+Muestra:
+- Ubicación exacta de todas las mesas 900K en el territorio peruano
+- Puntos geográficos basados en coordenadas RENIEC (latitud/longitud)
+- Distribución a nivel nacional con cobertura en todos los departamentos
+- Identificación visual de centros excepcionales (universidades, ESSALUD, instituciones educativas)
+- Datos de referencia cartográfica: Esri, TomTom, Garmin, FAO, NOAA, USGS
 
 ## Inicio rápido
 
