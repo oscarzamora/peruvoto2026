@@ -2,6 +2,27 @@
 
 Repositorio del proyecto Power BI.
 
+## Propósito y Contexto
+
+Este repositorio expone un **snapshot del 20 de abril de 2026** del conteo de la **primera vuelta de las Elecciones Generales Presidenciales del Perú 2026**, basado en datos públicos de la ONPE (Oficina Nacional de Procesos Electorales).
+
+### Intención
+- **Transparencia**: Exponer con claridad lo que la data nos dice sobre el estado del conteo electoral
+- **Acceso abierto**: Permitir que cualquier veedor pueda analizar, validar e interpretar los resultados
+- **Evitar malinterpretaciones**: Proporcionar herramientas visuales y datos estructurados para análisis riguroso
+- **Extensibilidad**: Los usuarios pueden crear nuevos reportes, hacer browse de los datos y realizar análisis más exhaustivos
+
+### Datos disponibles
+Los datos incluidos corresponden a la captura oficial del **20 de abril de 2026** (timestamp: 20260420T074202Z).
+
+**Nota importante:** Si existe una versión más actualizada de los datos en las fuentes originales (Hugging Face, ONPE), se recomienda descargarla y reemplazar los archivos locales en `data/` para análisis con información más reciente.
+
+### Cómo usar este repositorio
+1. Explora los 5 paneles del reporte Power BI (`reports/onpe.pbix`) para visualizaciones de alto nivel
+2. Accede a los datos brutos en `data/` para análisis independientes
+3. Crea tus propios reportes expandiendo el PBIX o usando herramientas externas
+4. Comparte hallazgos, validaciones o reportes adicionales como contribuciones
+
 ## Origen de la data (fuente oficial)
 
 Este repositorio incluye copias locales de archivos descargados desde fuentes externas.
