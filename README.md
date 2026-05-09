@@ -40,6 +40,56 @@ Referencias principales del dataset electoral:
 - data/ - archivos de datos locales
 - docs/ - notas, requerimientos y decisiones
 
+## Configuración de ruta relativa en Power BI
+
+Power BI Desktop no toma automáticamente la ubicación del archivo PBIX para resolver rutas relativas reales. Para lograr el mismo efecto, se utiliza un parámetro de carpeta base.
+
+En este proyecto (`peruvoto2026`), esa configuración ya está preconfigurada en el archivo PBIX (`reports/onpe.pbix`). La explicación de abajo se mantiene como documentación de referencia en caso se requiera actualizar, migrar o ajustar rutas en otro entorno.
+
+### Pasos para configurar rutas relativas:
+
+1. En Power BI Desktop, abrir **Transformar datos** (Transform Data).
+2. Ir a **Administrar parámetros** (Manage Parameters) y crear el parámetro `SourceData` (tipo texto).
+3. Asignar como valor la ruta relativa al archivo de datos desde la carpeta `reports/`:
+   ```
+   ../data/onpe_eg2026_mesas_20260420T074202Z.csv
+   ```
+4. En cada consulta CSV, usar el parámetro para construir la ruta completa.
+
+### Ejemplo en Power Query (M):
+
+```powerquery
+let
+    Source = Csv.Document(
+        File.Contents(SourceData),
+        [Delimiter=",", Columns=15, Encoding=65001, QuoteStyle=QuoteStyle.None]
+    ),
+    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"codigo_mesa", Int64.Type}, {"ubigeo", Int64.Type}, ...}),
+    ...
+in
+    #"Renamed Columns"
+```
+
+### Ventajas de este enfoque:
+
+- **Portabilidad**: Si el proyecto cambia de carpeta o de equipo, solo se actualiza `SourceData` y no todas las consultas.
+- **Mantenibilidad**: Un único punto de control para todas las rutas relativas.
+- **Flexibilidad**: Permite redirigir a diferentes archivos de datos sin modificar la lógica de transformación.
+
+### Estructura de carpetas esperada:
+
+```
+peruvoto2026/
+├── reports/
+│   └── onpe.pbix              ← Power BI file (reference point)
+├── data/
+│   ├── onpe_eg2026_mesas_20260420T074202Z.csv  ← Loaded via ../data/
+│   └── geodir-ubigeo-reniec.xlsx               ← Referenced by queries
+├── docs/
+└── scripts/
+```
+
 ## Documentacion de datos
 
 - CSV ONPE EG2026: [docs/fuente_datos_onpe_eg2026.md](docs/fuente_datos_onpe_eg2026.md)
