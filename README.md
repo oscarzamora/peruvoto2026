@@ -13,6 +13,11 @@ Repositorio del proyecto Power BI.
 - Los archivos `.pbix` se versionan con Git LFS (ver `.gitattributes`).
 - Evita subir credenciales o exportaciones sensibles.
 
+## Documentacion de datos
+
+- Fuente y formato del CSV cargado: `docs/fuente_datos_onpe_eg2026.md`
+- Fuente y formato del XLSX de ubigeo: `docs/fuente_datos_ubigeo_reniec.md`
+
 ## Inicio rapido
 
 1. Coloca tus archivos de reporte de Power BI en `reports/`.
