@@ -1,3 +1,9 @@
+- [Propósito y Contexto](#propósito-y-contexto)
+- [Datos disponibles](#datos-disponibles)
+- [Origen de la data](#origen-de-la-data-fuente-oficial)
+- [Contenido del reporte](#contenido-del-reporte)
+- [Galería de Paneles](#galería-de-paneles)
+
 # Propósito y Contexto
 
 Este repositorio expone un **snapshot del 20 de abril de 2026** del conteo de la **primera vuelta de las Elecciones Generales Presidenciales del Perú 2026**, basado en datos públicos de la ONPE (Oficina Nacional de Procesos Electorales).
