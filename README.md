@@ -37,13 +37,8 @@ Referencias principales del dataset electoral:
 ## Estructura
 
 - reports/ - archivos .pbix y .pbit
-- data/ - archivos de datos locales de ejemplo (solo no sensibles)
+- data/ - archivos de datos locales
 - docs/ - notas, requerimientos y decisiones
-
-## Notas de Git
-
-- Los archivos .pbix se versionan con Git LFS (ver [.gitattributes](.gitattributes)).
-- Evita subir credenciales o exportaciones sensibles.
 
 ## Documentacion de datos
 
