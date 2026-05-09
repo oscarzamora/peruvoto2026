@@ -44,8 +44,17 @@ Incluye filtros por:
 
 También muestra métricas de votos en blanco, votos nulos y cantidad total de mesas.
 
+### Panel Candidato
+Expone todos los candidatos presidenciales disponibles con la capacidad de filtrar por candidato.
+Incluye tabla detallada que muestra:
+- Departamento
+- Provincia
+- Distrito
+- Suma de votos por lugar
+
+Permite análisis granular de los votos por localidad geográfica para cada candidato.
+
 ### Otros paneles
-- **Candidato**: Análisis por candidato presidencial
 - **Mesas 900K**: Mesas especiales (centros excepcionales con 900k+ votantes)
 - **13 de Abel**: [Descripción por completar]
 - **Mapa 900K**: Visualización geográfica de mesas especiales
