@@ -100,6 +100,62 @@ Muestra:
 - Identificación visual de centros excepcionales (universidades, ESSALUD, instituciones educativas)
 - Datos de referencia cartográfica: Esri, TomTom, Garmin, FAO, NOAA, USGS
 
+## Galería de Paneles
+
+### 1. Panel General
+Visión consolidada de votos por candidato con filtros geográficos (Departamento, Provincia, Distrito).
+Incluye métricas de votos en blanco y nulos.
+
+```
+[Gráfico de barras: Votos por Candidato | Filtros: Departamento, Provincia, Distrito]
+- Votos presidenciales nacionales
+- Desglose de votos válidos
+- Métricas complementarias
+```
+
+### 2. Panel Candidato
+Análisis granular con tabla de votos por localidad para cada candidato.
+Permite filtrar por candidato y explorar resultados por distrito.
+
+```
+[Filtro de Candidatos + Tabla: Departamento | Provincia | Distrito | Suma de Votos]
+- Candidatos presidenciales
+- Desglose geográfico completo
+- Totales por localidad
+```
+
+### 3. Panel Mesas 900K
+Análisis específico de mesas especiales con distribución de votos.
+Cobertura de centros excepcionales (universidades, ESSALUD, IE distribuidas).
+
+```
+[Gráfico de barras: Votos en Mesas 900K | Filtros geográficos]
+- Dinámicas electorales en centros especiales
+- Comparativa con mesas normales
+- Métricas de participación
+```
+
+### 4. Panel 13 de Abril
+Resultados específicos de la fecha de apertura de mesas.
+Histórico de conteo a fecha específica.
+
+```
+[Gráfico temporal: Votos del 13 de Abril]
+- Snapshot de resultados en esa fecha
+- Análisis de mesas abiertas
+- Métrica de cantidad de mesas
+```
+
+### 5. Panel Mapa 900K
+Visualización geográfica con puntos de coordenadas exactas.
+
+```
+[Mapa interactivo de Perú con puntos naranja = mesas 900K]
+- Cobertura nacional
+- Centros urbanos principales identificados
+- Zoom y exploración por región
+```
+
 ## Inicio rápido
 
 1. Coloca tus archivos de reporte de Power BI en reports/.
