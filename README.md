@@ -1,8 +1,4 @@
-# peruvoto2026
-
-Repositorio del proyecto Power BI.
-
-## Propósito y Contexto
+# Propósito y Contexto
 
 Este repositorio expone un **snapshot del 20 de abril de 2026** del conteo de la **primera vuelta de las Elecciones Generales Presidenciales del Perú 2026**, basado en datos públicos de la ONPE (Oficina Nacional de Procesos Electorales).
 
