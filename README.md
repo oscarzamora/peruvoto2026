@@ -54,8 +54,15 @@ Incluye tabla detallada que muestra:
 
 Permite análisis granular de los votos por localidad geográfica para cada candidato.
 
+### Panel Mesas 900K
+Expone los votos recibidos en las mesas especiales (900K+) que incluyen centros excepcionales como universidades, ESSALUD e instituciones educativas distribuidas.
+Muestra:
+- Votos por candidato en mesas especiales
+- Filtros por Departamento, Provincia y Distrito
+- Todas las localidades dentro del universo de mesas 900K
+- Métricas de votos en blanco y nulos específicas para mesas especiales
+
 ### Otros paneles
-- **Mesas 900K**: Mesas especiales (centros excepcionales con 900k+ votantes)
 - **13 de Abel**: [Descripción por completar]
 - **Mapa 900K**: Visualización geográfica de mesas especiales
 
