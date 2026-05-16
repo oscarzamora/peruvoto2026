@@ -2,6 +2,8 @@
 
 Analitico basico para transparencia electoral en Peru, construido sobre data publica de ONPE y alimentado por el output del scraper:
 
+Los resultados expuestos corresponden a las votaciones de candidatos a la Presidencia del Peru en la primera vuelta de 2026.
+
 - https://github.com/oscarzamora/onpeescraper
 
 Este repo concentra dos entregables:
