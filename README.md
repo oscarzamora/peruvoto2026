@@ -59,6 +59,7 @@ peruvoto2026/
 |-- reports/
     |-- onpe_peru_2026-1.pbix
     `-- onpe_peru_2026-1.xlsx
+```
 
 ## Reporte Power BI
 
