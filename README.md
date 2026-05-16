@@ -13,6 +13,19 @@ Este repositorio concentra dos entregables:
 
 Ambos archivos de reporte ya están apuntando a la fuente de datos pública proveniente de `onpeescraper` (archivos de `output/` y apoyo de `source_data/`).
 
+## Actualización reciente
+
+Se actualizó `reports/onpe_peru_2026-1.xlsx`.
+
+Ahora se expone explícitamente que `onpeescraper` también provee ubigeo para extranjero, y que Power Query ya incluye esa información dentro del flujo de transformación.
+
+También se incorpora que `onpeescraper` ahora provee dos fuentes adicionales para análisis de extranjero:
+
+- `output/extranjero-ubigeo-continente-pais-ciudad.csv`
+- `output/extranjero-continente-pais-ciudad-lat-lon.csv`
+
+Respecto al cruce de ubigeos del Perú, existen muy pocos casos sin correspondencia. La causa más probable es desactualización del catálogo RENIEC usado como referencia. Fuera de esos casos puntuales, el resto del flujo y de los resultados se mantiene igual.
+
 ## Objetivo
 
 Poner a disposición de cualquier ciudadano una forma simple de explorar la data electoral pública, con foco en:
@@ -28,6 +41,8 @@ La fuente de verdad de este proyecto es el directorio `output/` generado por onp
 - `output/mesas_data.txt`
 - `output/votos.txt`
 - `output/agrupaciones.txt`
+- `output/extranjero-ubigeo-continente-pais-ciudad.csv`
+- `output/extranjero-continente-pais-ciudad-lat-lon.csv`
 
 Como insumos de apoyo para enriquecimiento:
 
@@ -44,7 +59,7 @@ Se usa únicamente como fuente de datos de entrada para el analítico.
 No se requiere correr ningún proceso adicional para usar este repositorio.
 Los reportes ya están predeterminados y apuntan a la fuente pública de datos de `onpeescraper`.
 
-Operacion habitual:
+Operación habitual:
 
 1. Abrir `reports/onpe_peru_2026-1.xlsx` y refrescar Power Query.
 2. Abrir `reports/onpe_peru_2026-1.pbix` y refrescar el modelo.
@@ -69,7 +84,7 @@ peruvoto2026/
 
 1. Panel general
 2. Panel de candidatos
-3. Mapa Peru
+3. Mapa Perú
 
 Adicionalmente, el reporte incluye filtros predeterminados para:
 
