@@ -1,25 +1,25 @@
 # PeruVoto 2026
 
-Analitico basico para transparencia electoral en Peru, construido sobre data publica de ONPE y alimentado por el output del scraper:
+Analítico básico para transparencia electoral en Perú, construido sobre data pública de ONPE y alimentado por el output del scraper:
 
-Los resultados expuestos corresponden a las votaciones de candidatos a la Presidencia del Peru en la primera vuelta de 2026.
+Los resultados expuestos corresponden a las votaciones de candidatos a la Presidencia del Perú en la primera vuelta de 2026.
 
 - https://github.com/oscarzamora/onpeescraper
 
-Este repo concentra dos entregables:
+Este repositorio concentra dos entregables:
 
 1. Reporte Power BI: `reports/onpe_peru_2026-1.pbix`
 2. Reporte Excel (Power Query + pivotes): `reports/onpe_peru_2026-1.xlsx`
 
-Ambos archivos de reporte ya estan apuntando a la fuente de datos publica proveniente de `onpeescraper` (archivos de `output/` y apoyo de `source_data/`).
+Ambos archivos de reporte ya están apuntando a la fuente de datos pública proveniente de `onpeescraper` (archivos de `output/` y apoyo de `source_data/`).
 
 ## Objetivo
 
-Poner a disposicion de cualquier ciudadano una forma simple de explorar la data electoral publica, con foco en:
+Poner a disposición de cualquier ciudadano una forma simple de explorar la data electoral pública, con foco en:
 
 - Transparencia
 - Trazabilidad de origen
-- Reproducibilidad del analisis
+- Reproducibilidad del análisis
 
 ## Fuente de datos
 
@@ -34,15 +34,15 @@ Como insumos de apoyo para enriquecimiento:
 - `source_data/geodir-ubigeo-reniec.xlsx`
 - `source_data/candidato.txt` (mapeo manual opcional)
 
-Todo lo anterior proviene de data publica.
+Todo lo anterior proviene de data pública.
 
-En este proyecto, `onpeescraper` ya esta corrido: aqui no se ejecuta scraping.
-Se usa unicamente como fuente de datos de entrada para el analitico.
+En este proyecto, `onpeescraper` ya está corrido: aquí no se ejecuta scraping.
+Se usa únicamente como fuente de datos de entrada para el analítico.
 
 ## Flujo recomendado
 
-No se requiere correr ningun proceso adicional para usar este repositorio.
-Los reportes ya estan predeterminados y apuntan a la fuente publica de datos de `onpeescraper`.
+No se requiere correr ningún proceso adicional para usar este repositorio.
+Los reportes ya están predeterminados y apuntan a la fuente pública de datos de `onpeescraper`.
 
 Operacion habitual:
 
@@ -82,12 +82,12 @@ Esto permite revisar esos subconjuntos de forma directa para los suspicaces, sin
 
 `reports/onpe_peru_2026-1.xlsx` contiene:
 
-- Power Query para ingesta y transformacion basica del output del scraper.
-- Tablas dinamicas para analitica simple por candidato y geografia.
+- Power Query para ingesta y transformación básica del output del scraper.
+- Tablas dinámicas para analítica simple por candidato y geografía.
 
 ## Nota de transparencia
 
-Este repositorio no inventa data electoral ni reemplaza resultados oficiales. Solo organiza y visualiza data publica para facilitar su lectura y fiscalizacion ciudadana.
+Este repositorio no inventa data electoral ni reemplaza resultados oficiales. Solo organiza y visualiza data pública para facilitar su lectura y fiscalización ciudadana.
 
 ## Screenshots finales
 
