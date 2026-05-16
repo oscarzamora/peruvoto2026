@@ -7,6 +7,8 @@ Esta carpeta contiene los dos entregables analíticos del proyecto.
 - `onpe_peru_2026-1.pbix`: dashboard en Power BI.
 - `onpe_peru_2026-1.xlsx`: analítico en Excel con Power Query y pivotes.
 
+Ambos archivos fueron actualizados en esta última iteración (PBIX y XLSX).
+
 ## Fuente de datos
 
 Ambos reportes se alimentan del output de:
@@ -18,8 +20,8 @@ Salidas usadas:
 - `output/mesas_data.txt`
 - `output/votos.txt`
 - `output/agrupaciones.txt`
-- `output/extranjero-ubigeo-continente-pais-ciudad.csv`
-- `output/extranjero-continente-pais-ciudad-lat-lon.csv`
+- `output/ubigeo_extranjero.txt`
+- `output/ubigeo_extranjero_lat_lon.txt`
 
 `onpeescraper` también provee ubigeo para extranjero y Power Query ya incluye esa información.
 

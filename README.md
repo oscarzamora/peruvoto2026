@@ -16,13 +16,14 @@ Ambos archivos de reporte ya están apuntando a la fuente de datos pública prov
 ## Actualización reciente
 
 Se actualizó `reports/onpe_peru_2026-1.xlsx`.
+También se actualizó `reports/onpe_peru_2026-1.pbix`.
 
 Ahora se expone explícitamente que `onpeescraper` también provee ubigeo para extranjero, y que Power Query ya incluye esa información dentro del flujo de transformación.
 
 También se incorpora que `onpeescraper` ahora provee dos fuentes adicionales para análisis de extranjero:
 
-- `output/extranjero-ubigeo-continente-pais-ciudad.csv`
-- `output/extranjero-continente-pais-ciudad-lat-lon.csv`
+- `output/ubigeo_extranjero.txt`: catálogo base de exterior con columnas `ubigeo`, `Continente`, `pais`, `ciudad`.
+- `output/ubigeo_extranjero_lat_lon.txt`: catálogo de exterior con `ubigeo`, `lat`, `lon` para georreferenciación fuera del Perú.
 
 Respecto al cruce de ubigeos del Perú, existen muy pocos casos sin correspondencia. La causa más probable es desactualización del catálogo RENIEC usado como referencia. Fuera de esos casos puntuales, el resto del flujo y de los resultados se mantiene igual.
 
@@ -41,8 +42,8 @@ La fuente de verdad de este proyecto es el directorio `output/` generado por onp
 - `output/mesas_data.txt`
 - `output/votos.txt`
 - `output/agrupaciones.txt`
-- `output/extranjero-ubigeo-continente-pais-ciudad.csv`
-- `output/extranjero-continente-pais-ciudad-lat-lon.csv`
+- `output/ubigeo_extranjero.txt`
+- `output/ubigeo_extranjero_lat_lon.txt`
 
 Como insumos de apoyo para enriquecimiento:
 
